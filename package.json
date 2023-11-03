@@ -1,0 +1,40 @@
+{
+  "name": "jwt-auth-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyAddy/trike-backend.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "jwt-auth"
+  ],
+  "author": "JoeyDevs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeyAddy/trike-backend.git/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mathjs": "^7.0.2",
+    "mongoose": "^7.0.3",
+    "nodemailer": "^6.4.10",
+    "socket.io": "^4.7.1",
+    "uniqid": "^5.4.0"
+  }
+}
